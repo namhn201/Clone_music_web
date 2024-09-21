@@ -1,0 +1,232 @@
+{
+    "artists": [
+        {       
+            "id": "artist1",
+            "name": "Nova1",
+            "avatar":"./assets/image/image1.webp",
+            "aboutus":"./assets/image/about1.webp",
+            "albums": [
+                {
+                    "id": "album1",
+                    "title": "Album 1",
+                    "tracks": [
+                        {
+                            "id": "track1",
+                            "title": "Bài hát 1",
+                            "url": "./assets/music/song1.mp3",
+                            "img":"./assets/image/song1.webp"
+                          },
+                          {
+                            "id": "track2",
+                            "title": "Bài hát 2",
+                            "url": "./assets/music/song2.mp3",
+                            "img":"./assets/image/song2.webp"
+
+                          }
+                    ]
+                }
+
+            ]
+
+        },
+        {       
+            "id": "artist2",
+            "name": "Novaa2",
+            "avatar":"./assets/image/image2.webp",
+            "aboutus":"./assets/image/about2.webp",
+            "albums": [
+                {
+                    "id": "album1",
+                    "title": "Album 1",
+                    "tracks": [
+                        {
+                            "id": "track1",
+                            "title": "Bài hát 3",
+                            "url": "./assets/music/song3.mp3",
+                            "img":"./assets/image/song3.webp"
+
+                          },
+                          {
+                            "id": "track2",
+                            "title": "Bài hát 4",
+                            "url": "./assets/music/song4.mp3",
+                            "img":"./assets/image/song4.webp"
+
+                          }
+                    ]
+                }
+
+            ]
+
+        },
+        {       
+            "id": "artist3",
+            "name": "Nova3",
+            "avatar":"./assets/image/image3.webp",
+            "aboutus":"./assets/image/about3.webp",
+
+            "albums": [
+                {
+                    "id": "album1",
+                    "title": "Album 1",
+                    "tracks": [
+                        {
+                            "id": "track1",
+                            "title": "Bài hát 5",
+                            "url": "./assets/music/song5.mp3",
+                            "img":"./assets/image/song5.webp"
+
+                          },
+                          {
+                            "id": "track2",
+                            "title": "Bài hát 6",
+                            "url": "./assets/music/song6.mp3",
+                            "img":"./assets/image/song6.webp"
+
+                          }
+                    ]
+                }
+
+            ]
+
+        },
+        {       
+            "id": "artist4",
+            "name": "Nova4",
+            "avatar":"./assets/image/image4.webp",
+            "aboutus":"./assets/image/about4.webp",
+
+            "albums": [
+                {
+                    "id": "album1",
+                    "title": "Album 1",
+                    "tracks": [
+                        {
+                            "id": "track1",
+                            "title": "Bài hát 7",
+                            "url": "./assets/music/song7.mp3",
+                            "img":"./assets/image/song7.webp"
+
+                          },
+                          {
+                            "id": "track2",
+                            "title": "Bài hát 8",
+                            "url": "./assets/music/song8.mp3",
+                            "img":"./assets/image/song8.webp"
+
+                          }
+                    ]
+                }
+
+            ]
+
+        },
+        {       
+            "id": "artist5",
+            "name": "Nova5",
+            "avatar":"./assets/image/image5.webp",
+            "aboutus":"./assets/image/about5.webp",
+            "albums": [
+                {
+                    "id": "album1",
+                    "title": "Album 1",
+                    "tracks": [
+                        {
+                            "id": "track1",
+                            "title": "Bài hát 9",
+                            "url": "./assets/music/song9.mp3",
+                            "img":"./assets/image/song9.webp"
+
+                          },
+                          {
+                            "id": "track2",
+                            "title": "Bài hát 10",
+                            "url": "./assets/music/song10.mp3",
+                            "img":"./assets/image/song10.webp"
+
+                          }
+                    ]
+                }
+
+            ]
+
+        },
+        {       
+            "id": "artist 6",
+            "name": "Nova6",
+            "avatar":"./assets/image/image6.webp",
+            "aboutus":"./assets/image/about6.webp",
+            "albums": [
+                {
+                    "id": "album1",
+                    "title": "Album 1",
+                    "tracks": [
+                        {
+                            "id": "track1",
+                            "title": "Bài hát 11",
+                            "url": "./assets/music/song11.mp3",
+                            "img":"./assets/image/song11.webp"
+
+                          },
+                          {
+                            "id": "track2",
+                            "title": "Bài hát 12",
+                            "url": "./assets/music/song12.mp3",
+                            "img":"./assets/image/song12.webp"
+
+
+                          }
+                    ]
+                }
+
+            ]
+
+        }
+       
+    ],
+    "RecomentToDay": [
+        {
+        "title": "Skyfall",
+        "artist": "Elizabeth Bloodflame",
+        "file": "./assets/music/song1.mp3"
+        },
+        {
+        "title": "Die With A Smile",
+        "artist": "Lady Gaga, Bruno Mars",
+        "file": "./assets/music/Lady Gaga, Bruno Mars - Die With A Smile.mp3"
+        },
+        {
+        "title": "Live to Die",
+        "artist": "Unknown",
+        "file": "./assets/music/live-to-die-195199.mp3"
+        },
+        {
+        "title": "Odoriko",
+        "artist": "Vaundy",
+        "file": "./assets/music/Vaundy - Odoriko (踊り子) (Lyrics) (Rom⧸Eng).mp3"
+        }
+    ],
+
+    "playlists": [
+        {
+        "title": "Skyfall",
+        "artist": "Elizabeth Bloodflame",
+        "file": "./assets/music/song1.mp3"
+        },
+        {
+        "title": "Die With A Smile",
+        "artist": "Lady Gaga, Bruno Mars",
+        "file": "./assets/music/Lady Gaga, Bruno Mars - Die With A Smile.mp3"
+        },
+        {
+        "title": "Live to Die",
+        "artist": "Unknown",
+        "file": "./assets/music/live-to-die-195199.mp3"
+        },
+        {
+        "title": "Odoriko",
+        "artist": "Vaundy",
+        "file": "./assets/music/Vaundy - Odoriko (踊り子) (Lyrics) (Rom⧸Eng).mp3"
+        }
+    ]
+}

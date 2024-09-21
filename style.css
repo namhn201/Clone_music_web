@@ -1,0 +1,23 @@
+body{
+    /* height: 100%;  */
+    background-color: #000000;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #fff;
+}
+body::-webkit-scrollbar {
+    background: linear-gradient(#212121, #131313);}
+body::-webkit-scrollbar-track {
+    background: linear-gradient(#212121, #131313);
+        border-radius: 10px; 
+}
+body::-webkit-scrollbar-thumb {
+    background: #898989; 
+    border-radius: 10px; 
+}
+main{
+    display: flex;
+    justify-content: center;
+}

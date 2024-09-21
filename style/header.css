@@ -1,0 +1,138 @@
+.logo img{
+    width: 60px;
+}
+.explore_premium{
+    display: none;
+}
+.notification{
+    display: none;
+}
+header{
+    background-color: transparent;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header_resize{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+.end_header{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+}
+.home_search_container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* justify-content: center; */
+    width: 40%;
+    gap: 10px;
+}
+.search{
+    border-radius: 50px;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F1F1F;
+    width: 100%;
+}
+.search img{
+    filter: invert(100%);
+}
+.home img{
+    /* height: 100%; */
+    filter: invert(100%);
+
+}
+.search input{
+    border: none;
+    outline: none;
+    /* height: 80%; */
+    width: 80%;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.authentication, .login, .sign_up{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+/* //.authentication */ 
+.login{
+    width: 50%;
+    
+}
+.login button{
+    width: 120px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.sign_up {
+    width: 50%;
+}
+.sign_up button{
+    width: 120px;
+    background-color: transparent;
+    color: #B3B3B3;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.authentication button{
+    height: 80%;
+}
+#accountName{
+    margin-top: 20px;
+}
+
+.account-container{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    
+}
+.dropdown{
+    /* z-index: 1000px; */
+    width: 100px;;
+    height: 30px;
+    background-color: rgb(163, 170, 170);
+
+ 
+}
+.dropdown p{
+    color: #fff;
+    margin: 0;
+    padding-top: 5px;
+}
+.account-container {
+    position: relative;
+    /* display: inline-block; */
+    /* transition: .4s ease-in-out;  */
+    /* padding-top: 12px; */
+}
+.dropdown ul{
+    padding-left: 10px;
+    list-style-type: none; 
+}
+.dropdown{
+    margin-top: 18px;
+    border-radius: 10px;
+    
+}

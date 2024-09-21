@@ -1,0 +1,520 @@
+.requestLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1b1a1a;
+    background-color: #eee9e9;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 30%;
+    height: 30%;
+    border-radius: 25px;
+    display: none;
+    z-index: 1000;
+}
+
+.left_layout{
+    background-color: #121212;
+    width: 25%;
+    overflow: hidden; 
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto; 
+
+}
+.right_layout{
+    background: linear-gradient(#212121, #131313);
+    width: 75%;
+    overflow-y: auto; 
+    /* height: 83vh; */
+    border-radius: 10px;
+
+}
+.right_layout::-webkit-scrollbar {
+    background: linear-gradient(#212121, #131313);}
+.right_layout::-webkit-scrollbar-track {
+    background: linear-gradient(#212121, #131313);
+        border-radius: 10px; 
+}
+.right_layout::-webkit-scrollbar-thumb {
+    background: #898989; 
+    border-radius: 10px; 
+}
+.right_layout_info{
+    background: linear-gradient(#212121, #131313);
+    border-radius: 10px;
+    color: #fff;
+    overflow-y: auto;
+    /* overflow: hidden; */
+    width: 25%;
+    display: none;
+}
+.right_layout_info::-webkit-scrollbar {
+    background: linear-gradient(#212121, #131313);}
+.right_layout_info::-webkit-scrollbar-track {
+    background: linear-gradient(#212121, #131313);
+        border-radius: 10px; 
+}
+.right_layout_info::-webkit-scrollbar-thumb {
+    background: #898989; 
+    border-radius: 10px; 
+}
+.right_layout_info_container{
+    padding-left: 10px;
+}
+.info_artist img{
+    width: 100%;
+
+}
+.about_artist{
+    height: 100%;
+}
+.about_artist img{
+    width: 100%;
+
+}
+.main_flex_wrapper{
+    display: flex;
+    /* height: 100%; */
+    height: 83vh;
+    gap: 10px;
+    width: 100%;
+    
+    
+}
+.side_bar{
+    width: 90%;
+    
+
+}
+.create_playlist{
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.find_podcasts{
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.box_resize{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 10%; */
+    
+}
+.create_playlist h3, .create_playlist p, .find_podcasts h3, .find_podcasts p {
+    /* margin: 0px; */
+    margin-top: 0px;
+}
+.create_playlist, .find_podcasts{
+
+}
+.create_playlist button{
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.find_podcasts button{
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.card_cirle{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 75%;
+    /* border-radius: 50%; */
+}
+.card_cirle img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain; 
+
+
+}
+.card_square{
+    /* background-color: aquamarine; */
+    /* width: 100%; */
+    height: 75%;
+}
+.card_square img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.right_layout_container{
+    display: flex;
+    justify-content: center;
+  
+}
+.right_layout_container_resize{
+    width: 96%;
+
+}
+.card_cirle_box{
+    /* background-color: bisque; */
+   /* width: 100%; */
+   width: 100%;
+   height: 100%;
+}
+.card_square_box{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    /* width: 100%; */
+
+}
+.card_container{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.right_layout_content{}
+
+.plus_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.plus_icon {
+    background-color: transparent; 
+    color: rgb(255, 255, 255); 
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+
+
+
+  }
+  
+  .plus_icon:hover {
+    background-color: #343131;
+  }
+  .your_library{
+    display: flex;
+    justify-content: space-between;
+    color: #B3B3B3;
+  }
+
+  .name_artists{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .navigator{
+    display: flex;
+    color: #fff;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .all{
+    background-color: #534e4e;
+    width: 65px;
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;    
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    /* opacity: 0.5   */
+    }
+    .all p{
+        margin: 0;
+  
+    }
+    .all:hover{
+        transform: scale(1.05);
+    }
+    .music{
+        background-color: #534e4e;
+        width: 80px;
+        height: 35px;
+        padding-left: 5px;
+        padding-right: 5px;        
+        border-radius: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        /* opacity: 0.5   */
+
+        }
+    .music p{
+        margin: 0;
+    
+    }
+    .music:hover{
+        transform: scale(1.05);
+
+    }
+    .podcast{
+        background-color: #534e4e;
+        width: 80px;
+        height: 35px;
+        padding-left: 5px;
+        padding-right: 5px;       
+        border-radius: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        /* opacity: 0.5   */
+        }
+    .podcast p{
+        margin: 0;
+    }
+    .podcast:hover{
+        transform: scale(1.05);
+
+    }
+.navigator{
+    margin-top: 10px;
+}
+/* ádadaasdas */
+  .playlists{
+    background-color: #343131;
+    width: 65px;
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* opacity: 0.5   */
+    }
+    .playlists p{
+        margin: 0;
+  
+    }
+    .artists{
+        background-color: #343131;
+        width: 80px;
+        height: 35px;
+        padding-left: 5px;
+        padding-right: 5px;        
+        /* border: 1px solid black; */
+        border-radius: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* opacity: 0.5   */
+        }
+    .artists p{
+        margin: 0;
+    
+    }
+    .podcast_shows{
+        background-color: #343131;
+        width: 120px;
+        height: 35px;
+        padding-left: 5px;
+        padding-right: 5px;       
+        border-radius: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* opacity: 0.5   */
+        }
+    .podcast_shows p{
+        margin: 0;
+    
+    }
+
+/* ádadasdas */
+
+  #right_layout_music{
+    
+    background: linear-gradient(#31302f 15%, #131313 30%);
+}
+.follow button{
+    color: #fff;
+    background-color: transparent;
+    border: 0.5px solid #fff;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 8px;
+    cursor: pointer;
+    transition: transform .2s;
+
+    
+}
+.follow button:hover{
+    transform: scale(1.05)
+}
+.content section{
+    margin-top: 10px;
+}
+.title{
+    margin-bottom: 10px;
+}
+.search_left_layout{
+    display: flex;
+    background-color: #343131;
+    width: 97%;
+    height: 28px;
+    margin-top: 10px;
+    border-radius: 3px;
+    align-items: center;
+    padding-left: 5px;
+
+
+}
+.search_left_layout input{
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    color: #fff;
+}
+.card_img{
+    width: 15%;
+    cursor: pointer;
+}
+.card_img img{
+    width: 100%;
+
+
+}
+.playlist_music{
+    margin-top: 10px;
+}
+.card_playlists{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+.card_info h3, .card_info p{
+    margin: 0;
+}
+.card_info p{
+    font-size: 14px;
+    color: #B3B3B3;
+}
+.card_info h3{
+    font-size: 16px;
+}
+#artistContainerSquareBox{
+    overflow-y: auto;
+    /* display: flex; */
+
+}
+#artistContainerSquareBox::-webkit-scrollbar {
+    background: linear-gradient(#212121, #131313);}
+#artistContainerSquareBox::-webkit-scrollbar-track {
+    background: linear-gradient(#212121, #131313);
+        border-radius: 10px; 
+}
+#artistContainerSquareBox::-webkit-scrollbar-thumb {
+    background: #898989; 
+    border-radius: 10px; 
+}
+#right_layout_lyrics{
+    display: none;
+    background-color: #757575;
+    text-align: center;
+}
+.lyrics_container p{
+    color: #888282;
+    font-size: 30px;
+    font-weight: bold;
+}
+.lyrics_container p.active{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+}
+.lyrics_container{
+    
+}
+.card_square_box {
+    position: relative;
+    /* width: 200px; 
+    height: 200px; */
+  }
+  
+  .card_square {
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+  }
+  
+  .add-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    font-size: 20px;
+    display: none; 
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .card_square_box:hover .add-button {
+    display: flex; 
+  }
+  .add-button:hover{
+    background-color: #fff;
+    color: #121212;
+  }
+  .right_layout_queue{
+    display: none;
+    width: 25%;
+    overflow-y: auto;
+  }
+
+  .right_layout_queue{
+    color: #FFF;
+  }
+  .right_layout_queue::-webkit-scrollbar {
+    background: linear-gradient(#212121, #131313);}
+.right_layout_queue::-webkit-scrollbar-track {
+    background: linear-gradient(#212121, #131313);
+        border-radius: 10px; 
+}
+.right_layout_queue::-webkit-scrollbar-thumb {
+    background: #898989; 
+    border-radius: 10px; 
+}

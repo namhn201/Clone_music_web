@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="#">
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ionicons@5.5.2/dist/css/ionicons.min.css"> -->
+
+
+
+</head>
+<body>
+    <div class="requestLogin">
+        <h2>Hãy đăng nhập để tiếp tục </h2>
+    </div>
+    <header>
+        <div class="header_resize">
+            <div class="logo">
+                <img src="./assets/logo/Gemini_Generated_Image_y7lf3yy7lf3yy7lf.jfif" alt="">
+            </div>
+            <div class="home_search_container">
+                <div class="home">
+                    <img src="./assets/logo/IcRoundOtherHouses.svg" alt="">
+                </div>
+                <div class="search">
+                    <img src="./assets/logo/IcBaselineSearch.svg" alt="">
+                    <input type="text" name="" id="" placeholder="What do you want to hear?">
+                </div>
+            </div>
+            <div class="explore_premium">
+                <button>explore_premium</button>
+            </div>
+            <div class="notification">
+                <img src="./assets/logo/IcBaselineNotificationsNone.svg" alt="">
+            </div>
+            <div class="end_header">
+                <div class="authentication">
+                    <div class="sign_up">
+                        <button>Sign up</button>
+                    </div>
+                    <div class="login" onclick="Login()">
+                        <button id="loginButton" >Login</button>
+                    </div>
+                </div>
+                <div class="account-container"  style="display: none;">
+                    <p id="accountName" style=" cursor: pointer;" onclick="Logout()">Account_01</p>
+                    <div id="accountOptions" class="dropdown"  style="display: none;">
+                        <ul>
+                            <div id="logoutButton"><li><p >Đăng xuất</p></li></div>
+                            <!-- <div><li><p id="logoutButton">Đăng xuất</p></li></div> -->
+    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </header>
+
+    <main>
+        <div class="main_flex_wrapper">
+            <div class="left_layout">
+                <div class="side_bar">
+                    <div class="your_library">
+                        <h2>Your Library</h2>
+                        <div class="plus_button">
+                            <button class="plus_icon">+</button>
+
+                        </div>
+
+                    </div>
+                    <div class="create_playlist">
+                        <div class="box_resize">
+                            <h3>Create your first playlist</h3>
+                            <p>It's easy, we'll help you</p>
+                            <button>Create playlist</button>
+                        </div>
+                       
+                    </div>
+                    <div class="find_podcasts">
+                        <div class="box_resize">
+                            <h3>Let's find someone podcast to follow</h3>
+                            <p>We'll keep you updated on new eposodes</p>
+                            <button>Browse podcasts</button>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="right_layout">
+                <div class="right_layout_container">
+                    <div class="right_layout_container_resize">
+
+                        <!-- Popular Artists -->
+                        <div class="right_layout_content">
+                            <div class="title">
+                                <h1>Popular artists</h1>
+                            </div>
+                            <div class="card_container">
+                                <div class="card_cirle_box">
+                                    <div class="card_cirle">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                
+                                    </div>
+                                </div>
+
+                                <div class="card_cirle_box">
+                                    <div class="card_cirle">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card_cirle_box">
+                                    <div class="card_cirle">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card_cirle_box">
+                                    <div class="card_cirle">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card_cirle_box">
+                                    <div class="card_cirle">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card_cirle_box">
+                                    <div class="card_cirle">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                
+                                    </div>
+                                </div>
+                              
+                           
+                            </div>
+                        </div>
+
+                        <!-- Popular albums -->
+                        <div class="right_layout_content">
+                            <div class="title">
+                                <h1>Popular albums</h1>
+                            </div>
+                            <div class="card_container">
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image2.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image3.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image4.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image5.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                   <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image6.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                          
+                                
+                            </div>
+                            
+                        </div>
+
+                        <!-- Popular Radio -->
+                        <div class="right_layout_content">
+                            <div class="title">
+                                <h1>Popular radio</h1>
+                            </div>
+                            <div class="card_container">
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                   <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/image1.webp" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                          
+                                
+                            </div>
+                            
+                        </div>
+
+                        <!-- Featured Charts -->
+                        <!-- <div class="right_layout_content">
+                            <div class="title">
+                                <h1>Popular radio</h1>
+                            </div>
+                            <div class="card_container">
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/ab676161000051745a79a6ca8c60e4ec1440be53.jfif" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/ab676161000051745a79a6ca8c60e4ec1440be53.jfif" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/ab676161000051745a79a6ca8c60e4ec1440be53.jfif" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/ab676161000051745a79a6ca8c60e4ec1440be53.jfif" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/ab676161000051745a79a6ca8c60e4ec1440be53.jfif" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                                   <div class="card_square_box">
+                                    <div class="card_square">
+                                        <img src="./assets/image/ab676161000051745a79a6ca8c60e4ec1440be53.jfif" alt="">
+                                    </div>
+                                    <div class="name_artists">
+                                        <p>Sơn tùng M-TP</p>
+                                        <p>Artist</p>
+                                    </div>
+                                </div>
+                          
+                                
+                            </div>
+                            
+                        </div> -->
+
+
+                  
+                      
+                    </div>
+                
+                </div>
+               
+            </div>
+            <div class="right_layout" id="right_layout_lyrics">                
+                <div class="lyrics_container">
+                    <p data-time="0">Line 1 of the lyrics</p>
+                    <p data-time="5">Line 2 of the lyrics</p>
+                    <p data-time="10">Line 3 of the lyrics</p>
+                    <p data-time="15">Line 4 of the lyrics</p>
+                    <p data-time="20">Line 4 of the lyrics</p>
+                    <p data-time="25">Line 4 of the lyrics</p>
+                    <p data-time="30">Line 4 of the lyrics</p>
+                    <p data-time="35">Line 4 of the lyrics</p>
+                    <p data-time="40">Line 4 of the lyrics</p>
+                    <p data-time="45">Line 4 of the lyrics</p>
+                    <p data-time="50">Line 4 of the lyrics</p>
+                    <p data-time="55">Line 4 of the lyrics</p>
+                    <p data-time="60">Line 4 of the lyrics</p>
+                    <p data-time="65">Line 4 of the lyrics</p>
+                </div>
+
+            </div>
+
+            <div class="right_layout_info">
+                <div class="right_layout_info_container">
+                    <div class="info_artist">
+                        <div class="info">
+                            <h3>Sơn Tùng MTP</h3>
+                        </div>
+                        <div class="image_artist">
+                            <img src="./assets/image/song1.webp" alt="">
+                        </div>
+                    </div>
+
+                    <div class="about_artist">
+                        <div class="info">
+                            <h3>Sơn Tùng MTP</h3>
+                        </div>
+                        <div class="image_artist">
+                            <img src="./assets/image/song1.webp" alt="">
+                        </div>
+                        <div class="description">
+                            <div class="title">
+                                Meghan Trainor
+                            </div>
+                            <div class="follow">
+                                <button>Follow</button>
+                            </div>
+                            <div class="content">
+                                <section>
+                                    Meghan Trainor first made history in 2014 with her diamond-certified smash single “All About That Bass.” Since then, the award-winning singer, songwriter, and multi-instrumentalist has garnered...
+                                </section>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_layout_queue">
+                <p>Playlists(còn lỗi, chỉ thêm được lần đầu tiên)</p>
+            </div>
+
+
+        </div>
+        <!-- <div id="zoomPlayer" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); z-index: 9999; color: white;">
+            <div style="display: flex; align-items: center; justify-content: center; height: 100%; flex-direction: column; text-align: center;">
+                <img src="./assets/image/ab676161000051745a79a6ca8c60e4ec1440be53.jfif" alt="Album Cover" style="width: 100px; height: 100px; margin-bottom: 20px;">
+                <h1 id="zoomedSongTitle">Shinunoga E-Wa</h1>
+                <p id="zoomedArtistName">Fujii Kaze</p>
+                <div class="audioZoom">
+
+                </div>
+                <audio id="audioPlayerZoom" controls style="width: 80%; margin-top: 20px;">
+                    <source src="./assets/music/song1.mp3" type="audio/mpeg">
+                </audio>
+                
+            </div>
+        </div> -->
+    </main>
+    <footer>
+        <div class="music_controls">
+            <div class="music_controls_container">
+                
+                <div class="music_item">
+                    <div class="music_item_img">
+                        <img src="./assets/image/song1.webp" alt="">
+                    </div>
+                    <div class="music_item_info">
+                        <h3 id="name_music">Best Part</h3>
+                        <p id="name_artist">Daniel Caesar, H.E.R.</p>
+                    </div>
+                </div>
+
+                <div class="music_button_control_container">
+                    <div class="music_button_control">
+                        <i class="fa-solid fa-shuffle" id="shuffleBtn"></i>
+                        <i class="fa-solid fa-backward-step" id="previousBtn"></i>
+                        <div class="music_controls">
+                            <i class="fa-solid fa-circle-play" id="play-btn"></i>
+                            <i class="fa-solid fa-circle-stop" id="pause-btn"></i>
+                        </div>
+                        <i class="fa-solid fa-forward-step" id="nextBtn"></i>
+                        <i class="fa-solid fa-repeat" id="repeatBtn" style="font-size: 23px; padding-top: 4px;"></i>
+
+                    </div>
+                    <div class="program">
+                        <audio id="audioPlayer">
+                            <source src="./assets/music/song1.mp3" type="audio/mpeg">
+                        </audio>
+                        <input type="range" value="0" id="progress" class="music-progress">
+                    </div>
+                   
+                </div>
+
+                <div class="music_button_other">
+                    <div class="info" onclick="Info()" style="cursor: pointer;">
+                        <i class="fa-solid fa-circle-info"></i>
+                    </div>
+                    <div class="lyrics" onclick="Lyris()"  style="cursor: pointer;">
+                        <i class="fa-solid fa-music"></i>
+                    </div>
+                    <div class="queue"  style="cursor: pointer;" onclick="Queue()">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <div class="sound" style="cursor: pointer;">
+                        <i class="fa-solid fa-volume-high"></i>
+                        <input type="range" value="100" id="sound">
+                    </div>
+                    <div class="zoom_in" style="cursor: pointer;">
+                        <ion-icon name="scan-outline"></ion-icon>
+                        <!-- <i id="zoomInButton" class="fas fa-search-plus"></i> -->
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </footer>
+     <!-- Zoomed-in music player -->
+     <div id="zoomPlayer" style="display: none;">
+        <img src="./assets/image/about1.webp" alt="">
+        <div class="zoomed-music-controls">
+            <div class="program">
+                <audio id="audioPlayerZoomed">
+                    <source src="./assets/music/song1.mp3" type="audio/mpeg">
+                </audio>
+                <div style="display: flex;">
+                    <input style="width: 100%;" type="range" value="0" id="progressZoomed" class="music-progress">
+                    <i id="zoomOutButton" class="fas fa-compress"></i>
+                </div>
+             
+         
+            </div>
+        </div>
+    </div>
+    
+ 
+
+    <script src="./script.js"></script>
+</body>
+</html>

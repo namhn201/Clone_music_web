@@ -1,0 +1,229 @@
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 10vh;
+}
+.music_item_img img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+.music_item_img{
+    display: flex;
+    align-items: center;
+    width: 78px;
+    height: 100%;
+    
+}
+.music_controls{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.music_controls button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.music_item{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: center;
+    /* height: 100%; */
+    gap: 10px;
+}
+.music_item h3{
+    margin: 0;
+}
+.music_item p{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* .music_button_control{
+    background-color: aquamarine;
+} */
+/* .music_button_info{
+    background-color: blueviolet;
+} */
+.music_controls_container{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 100%;
+}
+.music_item_info h3{
+    margin-bottom: 0;
+}
+.music_item_info{
+    align-items: center;
+}
+
+.music_button_control i{
+    font-size: 25px;
+    color: #7C7C7C;
+    height: 28px;
+}
+.music_button_control i:hover{
+    font-size: 25px;
+    color: #ddcece;
+    height: 28px;
+    transform:  scale(1.06);
+
+}
+
+#pause-btn{
+    display: none;
+}
+.music_button_control{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8px;
+    width: 30%;
+}
+#previousBtn{
+    /* width: 100px; */
+}
+#nextBtn{
+
+}
+.program{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    /* height: 100%; */
+    width: 60%;
+}
+.music_button_control_container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+/* #progress{
+    appearance: none;
+    cursor: pointer;
+    background-color: #7C7C7C;
+}
+#progress::-webkit-slider-thumb{
+    appearance: none;
+    background-color: #b32b2b;
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+} */
+ 
+#sound{
+    /* appearance: none; */
+    cursor: pointer;
+    background-color: #7C7C7C;
+    height: 5px;
+}
+
+.music_button_other{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.music_button_other i{
+    color: #7C7C7C;
+    font-size: 18px;
+    cursor: pointer;
+}
+.music_button_other i:hover{
+    color: #ffffff;
+    transform: scale(1.06);
+}
+
+
+.sound{
+    display: flex;
+    align-items: center;
+}
+.zoom_in{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+#repeatBtn.active {
+    color: green; /* Màu nút lặp lại khi được bật */
+}
+
+#zoomPlayer {
+    display: none; /* Ban đầu ẩn player */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Màu nền tối */
+    z-index: 9999;
+    color: white;
+}
+
+#zoomPlayer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.2); /* Điều chỉnh độ tối của ảnh */
+    /* z-index: 1000; */
+}
+.zoomed-music-controls {
+    position: relative;
+    z-index: 1001; /* Đảm bảo các điều khiển nhạc hiển thị trên ảnh nền */
+    color: white; /* Đổi màu chữ hoặc các thành phần khác để dễ nhìn trên nền tối */
+}
+
+#zoomPlayer h1, #zoomPlayer p {
+    margin: 0;
+}
+.zoomed-music-controls{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#zoomOutButton {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgba(24, 22, 22, 0.8);
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1002;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zoomOutButton:hover {
+    color: #000000;
+    background-color: rgb(255, 251, 251);
+}
+
+#zoomOutButton i {
+    font-size: 16px;
+}
+.zoom_in{
+    background-color: aliceblue;
+    filter: invert(1);
+}
